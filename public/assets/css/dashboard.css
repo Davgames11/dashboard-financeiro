@@ -1,0 +1,176 @@
+/* styles.css */
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background-color: #f0f2f5;
+    width: 100%;
+} */
+
+/* .container {
+    display: flex;
+    width: 100%;
+} */
+
+.sidebar {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .brand {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin: 15px 0;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.sidebar nav ul li a:hover {
+    color: #fff;
+}
+
+.sidebar nav ul div:hover {
+    background-color: #5a67d8;
+    color: #fff;
+    animation: transition 0.5s ease-in-out;
+
+    border-radius: 5px;
+}
+
+@keyframes transition {
+    from {
+        background-color: #fff;
+    }
+    to {
+        background-color: #5a67d8;
+        color: #fff;
+
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.main-content {
+    background-color: #5a67d8;
+}
+.current-balance,
+.your-wallet,
+.overview,
+.transactions,
+.market-cap {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.current-balance h2,
+.your-wallet h2,
+.overview h2,
+.transactions h2,
+.market-cap h2 {
+    margin-top: 0;
+}
+
+.current-balance .balance-amount {
+    font-size: 36px;
+    color: #5a67d8;
+}
+
+.current-balance .coins {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.current-balance .coin {
+    background-color: #f0f2f5;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.your-wallet .wallet-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.your-wallet .wallet-info div {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.your-wallet .wallet-info div:last-child {
+    margin-right: 0;
+}
+
+.your-wallet .wallet-info label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.your-wallet .wallet-info input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.your-wallet .connect-wallet {
+    background-color: #5a67d8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.overview .chart {
+    height: 300px;
+}
+
+.transactions table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.transactions table th,
+.transactions table td {
+    padding: 10px;
+    border: 1px solid #eee;
+}
+
+.market-cap ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.market-cap ul li {
+    background-color: #f0f2f5;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

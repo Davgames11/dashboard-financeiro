@@ -1,0 +1,18 @@
+body {
+    background: rgb(239, 181, 193);
+    background: linear-gradient(
+        152deg,
+        rgba(239, 181, 193, 1) 0%,
+        rgba(96, 142, 241, 1) 100%
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Raleway", sans-serif;
+}
+
+#welImg {
+    width: 60vw;
+    height: 60vh;
+    border-radius: 2%;
+}
